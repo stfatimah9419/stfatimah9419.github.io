@@ -1,0 +1,10 @@
+img {
+    float: right;
+  }
+  .clearfix {
+    overflow: auto;
+  }
+  .clearfix {
+    overflow: auto;
+    zoom: 1;
+  }
