@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<header>
+ <link rel="stylesheet"href="page 18.Css" >
+</header>
+<body>
+    <style>
+    body
+    .container {
+        display: -webkit-flex;
+        display: flex;
+        border-style: solid;
+        border-color: lightskyblue;
+        border-width: 3;
+        padding: 20;
+    }
+    nav {
+        width: 200px;
+        border-style: solid;
+        border-color: maroon;
+        border-width: 3;
+        padding: 20;
+    }
+    .flex-column {
+        -webkit-flex: 1;
+                flex: 1;
+        border-style: solid; 
+        border-color: blueviolet; 
+        border-width: 3;   
+        padding: 20;   
+    }
+    .container {
+        display: -webkit-flex;
+        display: flex;
+        border-style: solid;
+        border-color: burlywood;
+        border-width: 3;
+        padding: 20;
+    }
+    .initial {
+        -webkit-flex: initial;
+                flex: initial;
+        width: 200px;
+        min-width: 100px;
+        border-style: solid;
+        border-color: chartreuse;
+        border-width: 3;
+        padding: 20;
+    }
+    .none {
+        -webkit-flex: none;
+                flex: none;
+        width: 200px;
+        border-style: solid;
+        border-color: crimson;
+        border-width: 3;
+        padding: 20;
+    }
+    .flex1 {
+        -webkit-flex: 1;
+                flex: 1;
+                border-style: solid;
+                border-color: darkkhaki;
+                border-width: 3;
+                padding: 20;
+    }
+    .flex2 {
+        -webkit-flex: 2;
+                flex: 2;
+                border-style: solid;
+                border-top: thistle;
+                border-width: 3;
+                padding: 30;
+    }
+    .vertical-container {
+        height: 300px;
+        display: -webkit-flex;
+        display:         flex;
+        -webkit-align-items: center;
+                align-items: center;
+        -webkit-justify-content: center;
+                justify-content: center;
+                border-style: solid;
+                border-color: wheat;
+                border-width: 3;
+                padding: 20;
+    }
+    </style>
+
+<div class="container">
+    <nav>
+    <ul style="list-style-type: disc">
+        <li>Home</li>
+        <li> Taco Menu </li>
+        <li>Draft List</li> 
+        <li>Hours</li>
+        <li>Directions</li>
+        <li>Contact </li>
+    </ul>  
+    </nav>
+</div>
+
+<div class="flex-column">
+    <section>
+    Flexbox is so easy!
+    </section>  
+    <section>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+    </section>
+<div class="initial">
+I will be 200px when there is room, and I will shrink down to 100px if there is not room, but no smaller.
+</div>
+<div class="none">
+I will always be 200px, no matter what.
+</div>
+<div class="flex1">
+I will fill up 1/3 of the remaining width.
+</div>
+<div class="flex2">
+I will fill up 2/3 of the remaining width.
+</div>
+<div class="vertical-container">
+    <div>
+    Finally, it's easy to vertically center something in CSS!
+    </div>      
+</div>
+</body>
+</html>

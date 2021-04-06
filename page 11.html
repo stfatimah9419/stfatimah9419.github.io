@@ -1,0 +1,46 @@
+<html>
+<header>
+    <link rel="stylesheet"href="page 11.Css" >
+</header>
+<body>
+    <style>
+    body{
+        max-width: 600; margin: 100 auto;
+        }
+        img {
+            float: right;
+            border-style: solid;
+            border-color: turquoise;
+            border-width: 3;
+            padding: 30;
+        }
+        .clearfix {
+            overflow: auto;
+            border-style: solid;
+            border-color: tomato;
+            border-width: 3;
+            padding: 20;
+        }
+        .clearfix {
+            overflow: auto;
+            zoom: 1;
+            border-style: solid;
+            border-color: yellowgreen;
+            border-width: 3;
+            padding: 20;
+        }
+    </style>
+
+<div> <image src="museum.jpg">
+<alt="gambar_Museum">
+Uh oh... this image is taller than the element containing it, and it's floated, so it's overflowing outside of its container!
+</div>
+
+<div class="clearfix"> <image src="museum.jpg"><alt="gambar_Museum">
+
+    Much better!
+</div>
+</body>
+</html>
+    
+    
